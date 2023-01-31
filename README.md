@@ -9,15 +9,15 @@ em busca de você.</p>
 
 <h2> Jimmy Macedo no Desenvolve 2023 </h2>
 
-<p>Com intensão de removar meus conhecimentos em desenvolvimento, bem como desenvolver novas stacks como desenvolvimento front e backend em NodeJS e ReactJS, decidi me cadidatar ao bootcamp do Programa Desenvolve, do Grupo Boticário, para este ano de 2023.</p>
+<p>Com intensão de renovar meus conhecimentos em desenvolvimento web, bem como desenvolver novas stacks, como desenvolvimento front e backend em NodeJS e ReactJS, decidi me cadidatar ao bootcamp do Programa Desenvolve, do Grupo Boticário, para este ano de 2023.</p>
 
 <p>No último mês de 2022 tive a incrível notícia de que estava entre os cerca de 1.000 selecionados para participar do programa, entre mais de 27 mil inscrições. </p>
 
-<p> Será uma oportunidade impar em ser mentorado pela plataforma Alura, interagindo com mais de 1.000 estudantes, desenvolvedores, instrituroes e tutores durante estes 6 meses.</p>
+<p> Será uma oportunidade impar de ser mentorado pela plataforma Alura, interagindo com mais de 1.000 estudantes, desenvolvedores, instrutores e tutores durante estes 6 meses.</p>
 
 <h2>O que veremos aqui neste repositório? </h2>
 
-<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma deaprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>. Que aqui rebatizei gentilmente como <strong>Barbearia JMac</strong> =) </p>
+<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma de aprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>. Que aqui rebatizei gentilmente como <strong>Barbearia JMac</strong> =) </p>
 
 <br>
 
