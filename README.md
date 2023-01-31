@@ -1,4 +1,4 @@
-# Jimmy-no-Desenvolve-2023-GB.Tecch-Alura
+# Jimmy-no-Desenvolve-2023-GB.Tech-Alura
 
 <img src="https://res.cloudinary.com/beleza-na-web/image/upload/f_svg,fl_progressive,q_auto:eco/v1/blz/assets-store/0.0.405/images/academy/img-mulher-group.svg">
 
