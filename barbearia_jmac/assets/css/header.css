@@ -1,0 +1,28 @@
+header {
+	background: #fff;
+	padding: 20px;
+	box-shadow: 0 0 40px rgba(0,0,0,.3);
+}
+header nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+header nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+header nav li a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 10px;
+	border: 2px solid;
+	border-radius: 4px;
+	border-color: transparent;
+}
+header nav li a:hover {
+	border-color: #000
+}

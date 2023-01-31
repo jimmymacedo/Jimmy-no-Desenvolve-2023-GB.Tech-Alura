@@ -1,0 +1,47 @@
+main.main-contato {
+	padding: 2em 0;
+}
+
+main.main-contato label {
+	display: block;
+}
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao {
+	display: block;
+	padding: 1em;
+	margin-bottom: 1em;
+	width: 400px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	border: 1px solid #b1b1b1;
+}
+
+main.main-contato textarea {
+	height: 8em;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.btn-enviar {
+	background: #29afd7;
+	border: none;
+	border-radius: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFF;
+	box-shadow: 0 3px 10px rgba(0,0,0,.2);
+	position: relative;
+	font-size: 1.15em;
+	cursor: pointer;
+	transition: .2s;
+}
+.btn-enviar:hover {
+	background-color: #1d92b5;
+	transform: scale(1.025);
+}

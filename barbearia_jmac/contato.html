@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Entre em contato - Barbearia JMac</title>
+
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/header.css">
+		<link rel="stylesheet" href="assets/css/footer.css">
+		<link rel="stylesheet" href="assets/css/contato.css">
+	</head>
+
+	<body>
+		<header>
+			<div class="container">
+				<h1>
+					<img src="assets/imgs/logo.png" alt="Barbearia JMac - Desde 2023">
+					<nav>
+						<ul>
+							<li><a href="index.html" title="Ir para página inicial da Barbearia JMac">Home</a></li>
+							<li><a href="produtos.html" title="Ir para página de produtos">Produtos</a></li>
+							<li><a href="contato.html" title="Ir para página de contato">Contato</a></li>
+						</ul>
+					</nav>
+				</h1>
+			</div>
+		</header>
+
+		<main class="main-contato">
+
+			<div class="container">
+			
+				<form action="">
+					<label for="nomesobrenome">Nome completo:</label>
+					<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Seu nome completo">
+
+					<label for="email">Email:</label>
+					<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+					<label for="telefone">Telefone:</label>
+					<input type="tel" id="telefone" class="input-padrao" required  placeholder="(00) 00000-0000">
+
+					<label for="mensagem">Sua mensagem:</label>
+					<textarea type="text" id="mensagem" class="input-padrao" required></textarea>
+
+					<fieldset>
+						<legend>Como prefere que entremos em contato?</legend>
+						<label for="radio-email">
+							<input type="radio" name="contato" id="radio-email">
+							Email
+						</label>
+
+						<label for="radio-telefone">
+							<input type="radio" name="contato" id="radio-telefone">
+							Telefone
+						</label>
+
+						<label for="radio-whatsapp">
+							<input type="radio" name="contato" id="radio-whatsapp" checked>
+							WhatsApp
+						</label>
+					</fieldset>
+
+					<label for="horario">Qual horário prefere ser atendido?</label>
+					<select name="" id="horario"  class="input-padrao">
+						<option value="">Manhã</option>
+						<option value="">Tarde</option>
+						<option value="">Noite</option>
+					</select>
+
+					<label><input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por email?</label>
+
+ 					<input type="submit" value="Enviar formulário"  class="input-padrao btn-enviar">
+				</form>
+			
+
+				<h3>Horário de Funcionamento</h3>
+
+				<table>
+					<thead>
+						<tr>
+							<th>Dias </th>
+							<th>Horários</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Segunda a sexta </td>
+							<td>08h - 20h</td>
+						</tr>
+						<tr>
+							<td>Sábados</td>
+							<td>08h - 17h</td>
+						</tr>
+						<tr>
+							<td>Domingos</td>
+							<td>10h - 14h</td>
+						</tr>
+						
+					</tbody>
+				</table>
+
+			</div>
+		</main>
+	
+		<footer>
+			<img src="assets/imgs/logo-branco.png" alt="Barbearia JMac - Desde 2023">
+			<p class="copyright">Copyright &copy; Barbearia JMac - 2023</p>
+		</footer>
+
+	</body>
+
+</html>
