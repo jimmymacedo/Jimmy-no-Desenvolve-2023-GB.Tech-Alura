@@ -15,29 +15,30 @@ em busca de você.</p>
 
 <p> Será uma oportunidade impar em ser mentorado pela plataforma Alura, interagindo com mais de 1.000 estudantes, desenvolvedores, instrituroes e tutores durante estes 6 meses.</p>
 
+<h2>O que veremos aqui neste repositório? </h2>
 
+<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma deaprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>. Que aqui rebatizei gentilmente como <strong>Barbearia JMac</strong> =) </p>
 
 <br>
-<div style="display: inline_block" align="center">
-    <h2>🛠️ Stacks desenvolvidas no desenvolve</h2>
-    <br>
-    <br>
+
+<h2>Stacks desenvolvidas no Programa Desenvolve 2023</h2>
+<div style="display: inline_block" align="">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-        <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
+    <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    </div>
+</div>
     <br>
-    <div style="display: inline_block" align="center">
+<div style="display: inline_block" align="">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-    </div>
+</div>
     <br>
     <br>
     
