@@ -4,8 +4,9 @@
 
 <h1> Programa Desenvolve 2023 - Grupo Boticário </h1>
 
-<p>Em busca de tecnologias múltiplas, de todas as cores, idades e gêneros, capazes de criar, desenvolver e melhorar a partir do binarismo dos sistemas e construindo o amanhã que queremos e precisamos.<br>
-em busca de você.</p>
+<p>"Em busca de tecnologias múltiplas, de todas as cores, idades e gêneros, capazes de criar, desenvolver e melhorar a partir do binarismo dos sistemas e construindo o amanhã que queremos e precisamos.<br>
+em busca de você."</p>
+https://desenvolve.grupoboticario.com.br/
 
 <h2> Jimmy Macedo no Desenvolve 2023 </h2>
 
