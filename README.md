@@ -50,12 +50,8 @@ em busca de você.</p>
 </thead>
 <tbody>
 <tr data-sourcepos="47:1-47:95" style="background:green;">
-<td align="center" data-sourcepos="47:2-47:10" style="
-    background: green;
-    color: #FFF;
-    font-weight: bold;
-">01.</td>
-<td data-sourcepos="47:12-47:95"><strong> HTML e CSS parte 1: crie um página da Web  </strong></td>
+<td align="center" data-sourcepos="47:2-47:10">01.</td>
+<td data-sourcepos="47:12-47:95"><strong style="background: #00FF00; color: #FFF;"> HTML e CSS parte 1: crie um página da Web  </strong></td>
 </tr>
 <tr data-sourcepos="48:1-48:100" style="background:green;">
 <td align="center" data-sourcepos="48:2-48:10">01.</td>
