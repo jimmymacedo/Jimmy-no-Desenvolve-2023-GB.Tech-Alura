@@ -49,8 +49,8 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 01.     | ✅ HTML e CSS parte 1: crie um página da Web 
 | 01.     | ✅ HTML e CSS parte 2: posicionamento, listas e navegação.          	                    
 | 02.	  | ✅ HTML e CSS parte 3: trabalhando com formulários e tabelas
-| 02.     | ▶️ HTML e CSS parte 4: avançando no CSS
-| 03.     | Flexbox: posicione elementos na tela
+| 02.     | ✅ HTML e CSS parte 4: avançando no CSS
+| 03.     | ▶️Flexbox: posicione elementos na tela
 | 03.     | Layouts Responsivos: trabalhando com layouts mobile        
 | 04.     | Figma: construindo o layout do seu site mobile
 | 04.     | Figma: conhecendo componentes da interface
