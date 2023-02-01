@@ -89,3 +89,34 @@
 .itens:before {
     content: "★";
 }
+
+.beneficios ul {
+    width: calc(50% - 30px);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.beneficios img {
+    width: calc(50%);
+    display: inline;
+    box-shadow: 10px 10px 15px rgba(0,0,0,.15);
+}
+.beneficios img:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 1100px) {
+    .principal,
+    .conteudo-beneficios  {
+        width: auto;
+    }
+    .video,
+    .video  iframe{
+        width: 100%;
+    }
+    .beneficios ul,
+    .beneficios img {
+        width: 100%;
+    }
+
+}

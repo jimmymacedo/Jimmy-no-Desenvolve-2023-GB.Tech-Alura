@@ -45,3 +45,13 @@ main.main-contato textarea {
 	background-color: #1d92b5;
 	transform: scale(1.025);
 }
+
+
+@media screen and ( max-width: 1100px ) {
+	table {
+	    width: 100%;
+	}
+	.input-padrao {
+	    width: 100%;
+	}
+}
