@@ -26,3 +26,20 @@
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	height: 255px;
+	/* flex-direction: column;
+	flex-wrap: wrap;*/
+	flex-flow: column wrap;
+	width: 25%;
+}
+
+nav.rodapePrincipal-navMap-list > * {
+    width: 100%;
+}
+
+section.rodapePrincipal-navMap {
+    width: 100%;
+}
