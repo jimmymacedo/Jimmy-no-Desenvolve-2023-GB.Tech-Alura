@@ -43,3 +43,22 @@ nav.rodapePrincipal-navMap-list > * {
 section.rodapePrincipal-navMap {
     width: 100%;
 }
+
+
+ul.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+}
+
+
+li.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin: 1%;
+}
+li.conteudoPrincipal-cursos-link:nth-child(4n) {
+	margin-right: 0;
+}
+li.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+	margin-left: 0;
+}

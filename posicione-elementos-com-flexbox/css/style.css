@@ -52,7 +52,7 @@ body {
 	height: 100px;
 	background-color: #FFF;
 	text-align: center;
-	margin: 1%;
+	/*margin: 1%;*/
 	transition: .3s;
 	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
@@ -247,18 +247,18 @@ body {
 		text-align: left;
 	}
 
-	.conteudoPrincipal-cursos-link:nth-child(3n) {
+/*	.conteudoPrincipal-cursos-link:nth-child(3n) {
 		margin-right: 0;
-	}
+	}*/
 
-	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+/*	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
 		margin-left: 0;
 	}
-
+*/
 }
 
 @media(min-width: 1000px) {
-	.conteudoPrincipal-cursos-link {
+/*	.conteudoPrincipal-cursos-link {
 		margin: 1.333%;
 	}
 
@@ -281,7 +281,7 @@ body {
 	.videoSobre-sobre {
 		margin-left: 1.5em;
 	}
-
+*/
 }
 
 
