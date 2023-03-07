@@ -106,5 +106,8 @@ li.conteudoPrincipal-cursos-link:nth-child(4n+1) {
 	    justify-content: center;
 	    display: flex;
 	}
+	.cabecalhoPrincipal-nav-link-app {
+	    order: -1;
+	}
 
 }
