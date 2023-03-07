@@ -63,6 +63,24 @@ li.conteudoPrincipal-cursos-link:nth-child(4n+1) {
 	margin-left: 0;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-video {
+    margin-right: 2em;
+    flex-grow: 6;
+    width: auto;
+}
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+ul.videoSobre-sobre-list {
+    flex-grow: 1;
+}
 
 /*MOBILE*/
 @media screen and (max-width: 768px) {
