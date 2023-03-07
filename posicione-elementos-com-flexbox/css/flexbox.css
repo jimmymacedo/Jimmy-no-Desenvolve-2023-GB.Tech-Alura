@@ -62,3 +62,13 @@ li.conteudoPrincipal-cursos-link:nth-child(4n) {
 li.conteudoPrincipal-cursos-link:nth-child(4n+1) {
 	margin-left: 0;
 }
+
+
+/*MOBILE*/
+
+nav.cabecalhoPrincipal-nav {
+	flex-direction: column;
+}
+.cabecalhoPrincipal .container {
+	flex-direction: column;
+}
