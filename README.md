@@ -18,7 +18,7 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 
 <h2>O que veremos aqui neste repositório? </h2>
 
-<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma de aprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>. Que aqui rebatizei gentilmente como <strong>Barbearia JMac</strong> =) </p>
+<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma de aprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>, o "Alurinha" (prática do curso de Flexbox) e o "Apeperia", prática do curso de Layouts Responsivos. </p>
 
 <br>
 
