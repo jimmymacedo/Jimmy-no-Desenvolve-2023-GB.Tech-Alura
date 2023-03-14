@@ -52,9 +52,9 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 02.     | ✅ HTML e CSS parte 4: avançando no CSS
 | 03.     | ✅ Flexbox: posicione elementos na tela
 | 03.     | ✅ Layouts Responsivos: trabalhando com layouts mobile        
-| 04.     | ▶️ Figma: construindo o layout do seu site mobile
-| 04.     | Figma: conhecendo componentes da interface
-| 05.     | Figma: projete sites para diversas telas
+| 04.     | ✅ Figma: construindo o layout do seu site mobile
+| 04.     | ✅ Figma: conhecendo componentes da interface
+| 05.     | ▶️ Figma: projete sites para diversas telas
 | 05.     | Design System: projetando elementos
 | 06.     | Design System: criando componentes e documentando 
 | 06.     | Figma: trabalhando na construção de um Design System
