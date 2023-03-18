@@ -54,13 +54,13 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 03.     | ✅ Layouts Responsivos: trabalhando com layouts mobile        
 | 04.     | ✅ Figma: construindo o layout do seu site mobile
 | 04.     | ✅ Figma: conhecendo componentes da interface
-| 05.     | ▶️ Figma: projete sites para diversas telas
-| 05.     | Design System: projetando elementos
-| 06.     | Design System: criando componentes e documentando 
-| 06.     | Figma: trabalhando na construção de um Design System
-| 07.     | Tipografia: conhecendo o que há por trás dos tipos
-| 07.     | HTTP: Entendendo a web por baixo dos panos
-| 08.     | Javascript e HTML: desenvolva um jogo e pratique lógica de programação
+| 05.     | ✅ Figma: projete sites para diversas telas
+| 05.     | ✅ Design System: projetando elementos
+| 06.     | ✅ Design System: criando componentes e documentando 
+| 06.     | ✅ Figma: trabalhando na construção de um Design System
+| 07.     | ✅ Tipografia: conhecendo o que há por trás dos tipos
+| 07.     | ✅ HTTP: Entendendo a web por baixo dos panos
+| 08.     | ▶️ Javascript e HTML: desenvolva um jogo e pratique lógica de programação
 | 09.     | Javascript e HTML: pratique lógica com desenhos, animações e um jogo
 | 09.     | Arquitetura de computadores: por trás de como seu programa funciona
 | 10.     | JavaScript: tipos, variáveis e funções
