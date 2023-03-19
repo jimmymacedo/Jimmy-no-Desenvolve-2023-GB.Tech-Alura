@@ -60,8 +60,8 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 06.     | ✅ Figma: trabalhando na construção de um Design System
 | 07.     | ✅ Tipografia: conhecendo o que há por trás dos tipos
 | 07.     | ✅ HTTP: Entendendo a web por baixo dos panos
-| 08.     | ▶️ Javascript e HTML: desenvolva um jogo e pratique lógica de programação
-| 09.     | Javascript e HTML: pratique lógica com desenhos, animações e um jogo
+| 08.     | ✅ Javascript e HTML: desenvolva um jogo e pratique lógica de programação
+| 09.     | ▶️ Javascript e HTML: pratique lógica com desenhos, animações e um jogo
 | 09.     | Arquitetura de computadores: por trás de como seu programa funciona
 | 10.     | JavaScript: tipos, variáveis e funções
 | 10.     | JavaScript: Arrays 
