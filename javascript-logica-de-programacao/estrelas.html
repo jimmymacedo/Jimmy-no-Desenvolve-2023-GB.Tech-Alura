@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(num) {
+		for (i =1; i<= num; i++) {
+			document.write("<br>");
+		}
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+	}
+
+	function mostraLinha(frase) {
+		mostra(frase);
+		pulaLinha(2);
+	}
+
+
+
+    function gerarEstrelas(quantLinhas, quantColunas) {
+        var texto = "";
+        for (let i = 0; i < quantLinhas; i++) {
+            for (let j = 0; j < quantColunas; j++) {
+                texto +='*';
+            }
+            texto +='<br>';
+        }
+        return texto;
+    }
+
+
+    mostra(gerarEstrelas(40, 15));
+    
+</script>

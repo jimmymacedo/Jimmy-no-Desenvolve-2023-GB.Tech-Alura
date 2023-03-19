@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+
+	function pulaLinha(num) {
+		for (i =1; i<= num; i++) {
+			document.write("<br>");
+		}
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+	}
+
+	function mostraLinha(frase) {
+		mostra(frase);
+		pulaLinha(4);
+	}
+
+	function idade (anoDeNascimento) {
+		var idade = ano - anoDeNascimento;
+		return idade;
+	}
+
+	function mostraIdade(nome, anoDeNascimento) {
+		mostraLinha(nome + " tem " + idade(anoDeNascimento) + " anos");
+	}
+
+	var ano = 2020;
+
+	mostraIdade("Jimmy", 1989);
+	mostraIdade("Flávio", 1993);
+	mostraIdade("Zé", 2000);
+
+</script>

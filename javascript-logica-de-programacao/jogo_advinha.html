@@ -1,0 +1,40 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(num) {
+		for (i =1; i<= num; i++) {
+			document.write("<br>");
+		}
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+	}
+
+	function mostraLinha(frase) {
+		mostra(frase);
+		pulaLinha(2);
+	}
+
+    var numeroPensado = Math.round(Math.random()*10);
+    var tentativas = 0;
+
+    function chutar(msg) {
+        tentativas++;
+        var numeroInformado = parseInt(prompt(msg));
+        if (numeroInformado == numeroPensado) {
+            mostraLinha("Parabéns, você acertou na sua "+tentativas+"ª tentativa!");
+        } else {
+            var mensagem;
+            if (numeroInformado > numeroPensado) {
+                mensagem = "Errou! É menor!";
+            } else {
+                mensagem = "Errou! É maior!";
+            }
+            chutar(mensagem + " Tente novamente!");
+        }
+    }
+    chutar("Chute um número de 0 a 10");
+    
+</script>

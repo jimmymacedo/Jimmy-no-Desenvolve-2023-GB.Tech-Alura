@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha(num) {
+		for (i =1; i<= num; i++) {
+			document.write("<br>");
+		}
+	}
+
+	function mostra(frase) {
+		document.write(frase);
+	}
+
+	function mostraLinha(frase) {
+		mostra(frase);
+		pulaLinha(1);
+	}
+
+    var numero = 15;
+
+    for (multiplicador = 1; multiplicador <= 10; multiplicador++) {
+        mostraLinha(numero + " x " + multiplicador +" = " + (numero * multiplicador) );
+    }
+
+
+
+</script>
