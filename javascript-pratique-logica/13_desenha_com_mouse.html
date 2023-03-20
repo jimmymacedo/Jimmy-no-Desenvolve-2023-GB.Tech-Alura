@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhando com o Mouse</title>
+</head>
+<body>
+    
+    <canvas width="600" height="400"></canvas>
+    <br>
+    <label>
+        Escolha uma cor <input type="color" class="cor">
+    </label>
+    <br>
+    <label>
+        Tamanho do pincel <input type="range" class="tamanho" min="5" max="50">
+    </label>
+
+    <script>
+        
+        var paleta = document.querySelector('input.cor');
+        var tamanho = document.querySelector('input.tamanho');
+
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+
+        pincel.fillStyle = 'grey';
+        pincel.fillRect(0, 0, 600, 400);
+
+        function brush(evento) {
+
+            if (mousePressionado) {
+
+                var x = evento.pageX - tela.offsetLeft;
+                var y = evento.pageY - tela.offsetTop;
+
+                pincel.fillStyle = paleta.value;
+                pincel.beginPath();
+                pincel.arc(x, y, tamanho.value, 0, 2 * 3.14);
+                pincel.fill();
+                
+            }
+
+        }
+
+        var mousePressionado = false;
+
+        tela.onmousedown = () => {
+            mousePressionado = true;
+        }
+        tela.onmouseup = () => {
+            mousePressionado = false;
+        }
+        tela.onmousemove = brush;
+
+
+
+    </script>
+
+</body>
+</html>

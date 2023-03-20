@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa 4</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+
+    <script>
+
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    function desenhaCirculo(x, y, raio) {
+        pincel.fillStyle = 'blue';
+        pincel.beginPath();
+        pincel.arc(x, y, raio, 0, 2 * Math.PI);
+        pincel.fill();
+    }
+
+    function limpaTela() {
+        pincel.clearRect(0, 0, 600, 400);
+    }
+
+    var x = 20;
+
+    var sentido = 1;
+    var salto = 2;
+
+    var raio = 20;
+
+    var minRaio = 20;
+    var maxRaio = 30;
+
+    var fatorCrescimento = 0;
+
+    function atualizaTela() {
+
+        limpaTela();
+        
+        if (x > 600) {
+            sentido = -1;
+        } else if (x < 0) {
+            sentido = 1;
+        }
+
+        if (raio >= maxRaio) {
+            fatorCrescimento = -1;
+        } else if (raio <= minRaio) {
+            fatorCrescimento = 1;
+        }
+        raio = raio + fatorCrescimento;
+
+        desenhaCirculo(x, 40, raio);
+        x = x + sentido*salto;
+
+    }
+
+    setInterval(atualizaTela, 10);
+
+    </script>
+
+</body>
+</html>

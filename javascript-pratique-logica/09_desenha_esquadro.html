@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenha Esquadro</title>
+</head>
+<body>
+    
+<canvas width="600" height="400"></canvas>
+
+<script>
+
+    function desenhaEsquadro(xa, ya, xc, yc, cor) {
+
+        var tela = document.querySelector('canvas');
+        var pincel = tela.getContext('2d');
+
+        pincel.fillStyle = cor;
+        pincel.beginPath();
+        pincel.moveTo(xa, ya);
+        pincel.lineTo(xa, yc);
+        pincel.lineTo(xc, yc);
+        pincel.fill();
+
+        pincel.fillStyle="white";
+        pincel.beginPath();
+        pincel.moveTo(xa+50, ya+125);
+        pincel.lineTo(xa+50, yc-50);
+        pincel.lineTo(xc-125, yc-50);
+        pincel.fill();
+
+    }
+    
+    desenhaEsquadro(20, 100, 300, 400, "green");
+    desenhaEsquadro(50, 50, 350, 350, "black");
+
+</script>
+
+</body>
+</html>
