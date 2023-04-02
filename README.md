@@ -18,7 +18,7 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 
 <h2>O que veremos aqui neste repositório? </h2>
 
-<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma de aprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>, o "Alurinha" (prática do curso de Flexbox) e o "Apeperia", prática do curso de Layouts Responsivos. </p>
+<p>Inicialmente, as práticas oficiais feitas durante as aulas, como forma de aprendizado. Como aquela que já se torou um clássico, a querida <strong>Barbearia Alura</strong>, o "Alurinha" (prática do curso de Flexbox) e o "Apeperia", prática do curso de Layouts Responsivos. Além de outros exercícios e experimentações.</p>
 
 <br>
 
@@ -64,8 +64,8 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 09.     | ✅ Javascript e HTML: pratique lógica com desenhos, animações e um jogo
 | 09.     | ✅ Arquitetura de computadores: por trás de como seu programa funciona
 | 10.     | ✅ JavaScript: tipos, variáveis e funções
-| 10.     | ▶️ JavaScript: Arrays 
-| 11.     | JavaScript: objetos 
+| 10.     | ✅ JavaScript: Arrays 
+| 11.     | ▶️ JavaScript: objetos 
 | 12.     | JavaScript para Web: Crie páginas dinâmicas
 | 12.     | JavaScript: manipulando o DOM
 | 13.     | Git e GitHub: repositório, commit e versões
