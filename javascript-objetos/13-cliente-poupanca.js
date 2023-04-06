@@ -34,11 +34,13 @@ function ClientePoupanca(nome, cpf, email, saldo, saldoPoup)
     this.saldoPoup = saldoPoup
 }
 
-ClientePoupanca.prototype.depositarPoup = function(valor) {
+ClientePoupanca.prototype.depositarPoup = function(valor) 
+{
     this.saldoPoup += valor
 }
 
-ClientePoupanca.prototype.sacarPoup = function(valor) {
+ClientePoupanca.prototype.sacarPoup = function(valor) 
+{
     this.saldoPoup -= valor
 }
 

@@ -19,7 +19,6 @@ function Cliente(nome, cpf, email, saldo) {
         }
     }
 }
-
 function Dependente(nome, parentesco, dataNasc) {
     this.nome = nome
     this.parentesco = parentesco

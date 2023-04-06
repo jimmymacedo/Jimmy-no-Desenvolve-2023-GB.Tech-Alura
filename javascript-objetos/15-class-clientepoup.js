@@ -1,5 +1,6 @@
 class Cliente {
-    constructor(nome, cpf, email, saldo) {
+    constructor(nome, cpf, email, saldo) 
+    {
         this.nome = nome
         this.cpf = cpf
         this.email = email
@@ -37,7 +38,8 @@ class Cliente {
 
 class ClientePoupanca extends Cliente {
 
-    constructor(nome, cpf, email, saldo, saldoPoupanca) {
+    constructor(nome, cpf, email, saldo, saldoPoupanca) 
+    {
         super(nome, cpf, email, saldo)
         this.saldoPoupanca = saldoPoupanca
     }

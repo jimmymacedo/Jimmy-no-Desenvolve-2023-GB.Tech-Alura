@@ -62,11 +62,10 @@ const clientes = [
 // usando espalhamento ...
 // const listaDependentes = [...clientes[0].dependentes, ...clientes[1].dependentes]
 
-// usando concat
+// usando forEach e concat
 let listaDependentes = []
 
 clientes.forEach( cliente => {
-    console.log(cliente.dependentes)
     listaDependentes = listaDependentes.concat(cliente.dependentes)
 })
 
