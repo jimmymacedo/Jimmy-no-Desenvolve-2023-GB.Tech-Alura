@@ -68,8 +68,8 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 11.     | ✅ JavaScript: objetos 
 | 11.     | ✅ JavaScript: programação orientada a objetos
 | 12.     | ✅ JavaScript para Web: Crie páginas dinâmicas
-| 12.     | ▶️ JavaScript: manipulando o DOM
-| 13.     | Git e GitHub: repositório, commit e versões
+| 12.     | ✅ JavaScript: manipulando o DOM
+| 13.     | ▶️ Git e GitHub: repositório, commit e versões
 | 13.     | JavaScript na Web: validação de Formulários e HTML5
 | 14.     | JavaScript: consumindo e tratando dados de uma API
 | 14.     | JS na web: CRUD com JavaScript assíncrono
