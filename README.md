@@ -73,8 +73,8 @@ Saiba mais em https://desenvolve.grupoboticario.com.br/
 | 13.     | ✅ JavaScript na Web: validação de Formulários e HTML5
 | 14.     | ✅ JavaScript: consumindo e tratando dados de uma API
 | 14.     | ✅ JS na web: CRUD com JavaScript assíncrono
-| 15.     | ▶️ SQL com MySQL: manipule e consulte dados
-| 15.     | Consultas SQL: avançando no SQL com MySQL
+| 15.     | ✅ SQL com MySQL: manipule e consulte dados
+| 15.     | ▶️ Consultas SQL: avançando no SQL com MySQL
 | 16.     | MongoDB: uma alternativa aos bancos relacionais tradicionais
 | 16.     | Node.js: criando sua primeira biblioteca
 | 17.     | ORM com NodeJS: API com Sequelize e MySQ
