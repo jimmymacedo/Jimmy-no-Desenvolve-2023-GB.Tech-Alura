@@ -7,13 +7,22 @@ function trataErro(erro) {
 
 function pegaArquivo(caminhoArquivo) {
     const enconding = 'utf-8'
-    fs.readFile(caminhoArquivo, enconding, (erro, texto) => {
-        if (erro) {
-            trataErro(erro)
-        }
-        console.log(chalk.green(texto))
-    })
-    
+    fs.promises.readFile(caminhoArquivo, enconding)
+        .then((texto) => {
+            console.log(chalk.green(texto))
+        })
+        .catch(trataErro)
 }
+
+// function pegaArquivo(caminhoArquivo) {
+//     const enconding = 'utf-8'
+//     fs.readFile(caminhoArquivo, enconding, (erro, texto) => {
+//         if (erro) {
+//             trataErro(erro)
+//         }
+//         console.log(chalk.green(texto))
+//     })
+    
+// }
 
 pegaArquivo('./arquivos/texto.md')
