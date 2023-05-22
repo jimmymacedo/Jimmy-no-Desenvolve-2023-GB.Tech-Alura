@@ -7,6 +7,8 @@ router
     .get    ('/livros',     LivroController.listarLivros)
     .post   ('/livros',     LivroController.cadastrarLivro)
 
+    .get    ('/livros/busca', LivroController.listarLivrosPorEditora)
+
     .get    ('/livros/:id', LivroController.listarLivroPorId)
     .put    ('/livros/:id', LivroController.atualizarLivro)
     .delete ('/livros/:id', LivroController.excluirLivro)
