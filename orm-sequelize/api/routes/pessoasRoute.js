@@ -13,4 +13,17 @@ router.put('/pessoas/:id', PessoaController.atualizaPessoa)
 
 router.delete('/pessoas/:id', PessoaController.apagaPessoa)
 
+
+router.get('/pessoas/:estudanteId/matriculas', PessoaController.pegaTodasAsMatriculas)
+
+router.get('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.pegaUmaMatricula)
+
+router.get('/pessoas/:estudanteId/matriculas/status/:status', PessoaController.pegaAsMatriculasPorStatus)
+
+router.post('/pessoas/:estudanteId/matriculas', PessoaController.criaMatricula)
+
+router.put('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.atualizaMatricula)
+
+router.delete('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.apagaMatricula)
+
 module.exports = router
