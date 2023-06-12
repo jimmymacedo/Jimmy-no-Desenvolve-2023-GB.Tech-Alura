@@ -17,13 +17,19 @@ router.delete('/pessoas/:id', PessoaController.apagaPessoa)
 
 router.post('/pessoas/:id/restaura', PessoaController.restauraPessoa)
 
-router.get('/pessoas/:estudanteId/matriculas', PessoaController.pegaTodasAsMatriculas)
+router.get('/pessoas/:estudanteId/matricula', PessoaController.pegaMatriculas)
+
+router.get('/pessoas/matricula/:turmaId/confirmadas', PessoaController.pegaMatriculasPorTurma)
+
+router.get('/pessoas/matricula/lotada', PessoaController.pegaTurmasLotadas)
 
 router.get('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.pegaUmaMatricula)
 
 router.get('/pessoas/:estudanteId/matriculas/status/:status', PessoaController.pegaAsMatriculasPorStatus)
 
 router.post('/pessoas/:estudanteId/matriculas', PessoaController.criaMatricula)
+
+router.post('/pessoas/:estudanteId/cancela', PessoaController.cancelaPessoa)
 
 router.put('/pessoas/:estudanteId/matriculas/:matriculaId', PessoaController.atualizaMatricula)
 
