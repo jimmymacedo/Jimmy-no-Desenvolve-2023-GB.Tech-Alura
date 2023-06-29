@@ -1,0 +1,14 @@
+// CPF:
+\d{3}\.?\d{3}\.?\d{3}[-\.]\d{2}
+
+// <code> ou </code>
+</?code>
+
+// data no formado 01 de Juazeiro de 2000
+[1-3]?\d\s+de\s+[a-zA-Zç]{3,9}\s+de\s+\d{4}
+
+// file:///C:/Jimmy-no-Desenvolve-2023/regex/index.html
+^file.+\.html$
+
+// <h1 class="text-left">Expressões regulares</h1> ( ou h2)
+<(h1|h2).+?>([\s\wõçã]+)</\1>
